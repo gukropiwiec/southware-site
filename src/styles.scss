@@ -1,0 +1,18 @@
+// FONT CONFIG
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Light.ttf');
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+// COLOR PALETTE
+
+:root {
+    --header-bg: rgba(128, 128, 128, 0.884);
+}
+
+// CSS

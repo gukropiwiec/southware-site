@@ -1,0 +1,18 @@
+nav {
+    background-color: var(--header-bg);
+}
+
+.nav-item {
+    color: black;
+}
+
+.img-header-logo {
+    max-width: 40px;
+    filter: brightness(0);
+}
+
+@media screen and (min-width: 992px) {
+    .nav-content-position {
+        justify-content: end;
+    }
+}
