@@ -12,7 +12,35 @@
 // COLOR PALETTE
 
 :root {
-    --header-bg: rgba(128, 128, 128, 0.884);
+    --color-blue: #2270E2;
+    --color-secondary: #FFFFFF;
+    --color-primary: #212121;
+    --color-bg-dark-alpha: #9f9f9ff6;
+    --color-text: #4D4D4D;
+    --color-c742624: #FFFFFF;
+    --color-40b28bc: #000000;
+    --light-blue: #F4F8FD;
+    --color-0bbe810: #F3F4F6;
+    --color-cfcb5bb: #222222;
+    --color-fab3c72: #49A078;
 }
 
 // CSS
+
+html body {
+    color: var(--color-text);
+}
+
+.section-blue {
+    background-color: var(--light-blue);
+}
+
+.section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.btn-blue {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+}

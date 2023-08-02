@@ -1,14 +1,23 @@
 nav {
     background-color: var(--header-bg);
+    min-height: 58px;
+    transition: all 0.5s ease;
 }
 
-.nav-item {
-    color: black;
+.nav-bg-scroll {
+    background-color: var(--color-bg-dark-alpha) !important;
+
+    // a {
+    //     color: #fff !important;
+    // }
+
+    // img {
+    //     filter: invert(100%);
+    // }
 }
 
 .img-header-logo {
-    max-width: 40px;
-    filter: brightness(0);
+    max-width: 95px;
 }
 
 @media screen and (min-width: 992px) {
@@ -16,3 +25,15 @@ nav {
         justify-content: end;
     }
 }
+
+// .navbar-toggler {
+//     border: 1px solid whitesmoke;
+
+//     .navbar-toggler-icon {
+//         filter: grayscale(1) invert(100%);
+//     }
+// }
+
+// .navbar-toggler:focus {
+//     box-shadow: none;
+// }
