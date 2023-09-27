@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HeadlineComponent } from './headline/headline.component';
 import { ButtonComponent } from './button/button.component';
-import { AboutComponent } from './about/about.component';
+import { ClientsComponent } from './clients/clients.component';
+import { ServicesComponent } from './services/services.component';
 
 const moduleComponents = [
     HeaderComponent,
     HeadlineComponent,
     ButtonComponent,
-    AboutComponent
+    ClientsComponent,
+    ServicesComponent
 ];
 
 @NgModule({
