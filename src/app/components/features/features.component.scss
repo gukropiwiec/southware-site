@@ -1,0 +1,59 @@
+.line {
+    border: solid 1px rgb(160, 160, 160);
+    width: 42%;
+    height: 1px;
+    margin: auto;
+}
+
+.second-content {
+    margin-top: 100px;
+}
+
+.subthemes {
+    align-items: center;
+}
+
+h6 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.subthemes > img {
+    width: 12px;
+    height: 12px;
+}
+
+.photo > img {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .line {
+        width: 35%;
+    }
+    .second-content{
+        flex-wrap: wrap;
+    }
+    .features-text {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .line {
+        width: 25%;
+    }
+    .second-content{
+        flex-wrap: wrap;
+    }
+    .features-text, .benefits-text {
+        margin-bottom: 30px;
+        width: 295px;
+    }
+}

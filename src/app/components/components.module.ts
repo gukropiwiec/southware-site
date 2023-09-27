@@ -5,13 +5,15 @@ import { HeadlineComponent } from './headline/headline.component';
 import { ButtonComponent } from './button/button.component';
 import { ClientsComponent } from './clients/clients.component';
 import { ServicesComponent } from './services/services.component';
+import { FeaturesComponent } from './features/features.component';
 
 const moduleComponents = [
     HeaderComponent,
     HeadlineComponent,
     ButtonComponent,
     ClientsComponent,
-    ServicesComponent
+    ServicesComponent,
+    FeaturesComponent
 ];
 
 @NgModule({
