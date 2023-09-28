@@ -6,6 +6,7 @@ import { ButtonComponent } from './button/button.component';
 import { ClientsComponent } from './clients/clients.component';
 import { ServicesComponent } from './services/services.component';
 import { FeaturesComponent } from './features/features.component';
+import { TeamComponent } from './team/team.component';
 
 const moduleComponents = [
     HeaderComponent,
@@ -13,7 +14,8 @@ const moduleComponents = [
     ButtonComponent,
     ClientsComponent,
     ServicesComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    TeamComponent
 ];
 
 @NgModule({
