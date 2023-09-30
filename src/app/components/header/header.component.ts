@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, HostListener } from '@angular/core';
+import {LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-header',
@@ -7,6 +8,9 @@ import { AfterViewInit, Component, HostListener } from '@angular/core';
 })
 export class HeaderComponent implements AfterViewInit {
     private navHeader!: HTMLElement | null;
+    lang = 'en-US';
+
+    constructor(private translateS: TranslateService) {}
 
     @HostListener('window:scroll', ['$event'])
     onScroll() {
@@ -21,5 +25,14 @@ export class HeaderComponent implements AfterViewInit {
         this.navHeader = document.getElementById('nav-header');
         if (window.innerWidth >= 992) 
             this.navHeader?.classList.remove('nav-bg-scroll');
+
+        this.translateS.onLangChange.subscribe((event: LangChangeEvent) => {
+            this.lang = event.lang;
+            localStorage.setItem('lang', event.lang);
+        });
+    }
+    
+    changeLanguage(lang: string): void {
+        this.translateS.use(lang);
     }
 }

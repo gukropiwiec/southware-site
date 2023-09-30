@@ -1,3 +1,5 @@
+<!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
+<!-- eslint-disable @angular-eslint/template/click-events-have-key-events -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light px-3 py-1 fixed-top nav-bg-scroll" id="nav-header">
         <div class="container">
@@ -21,6 +23,14 @@
                     <a class="nav-item nav-link mx-4" href="#clients">{{ 'header.clients' | translate }}</a>
                     <a class="nav-item nav-link mx-4" href="#services">{{ 'header.services' | translate }}</a>
                     <a class="nav-item nav-link mx-4" href="#contact">{{ 'header.contact' | translate }}</a>
+                    <div class="row">
+                        <div class="col-3 text-end">
+                            <img class="lang-flag mx-1 cursor-pointer" [ngClass]="{'active-lang': lang === 'en-US' }" (click)="changeLanguage('en-US')" src="assets/icons/languages/en-US.png" alt="US flag">
+                        </div>
+                        <div class="col text-start">
+                            <img class="lang-flag ms-1 me-5 cursor-pointer" [ngClass]="{'active-lang': lang === 'pt-BR' }" (click)="changeLanguage('pt-BR')" src="assets/icons/languages/pt-BR.png" alt="BR flag">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
