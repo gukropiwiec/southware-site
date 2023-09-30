@@ -1,0 +1,13 @@
+{
+    "btnViewServices": "View All Services",
+    "header": {
+        "home": "Home",
+        "clients": "Clients",
+        "services": "Services",
+        "contact": "Contact Us"
+    },
+    "headline": {
+        "title": "Cutting-edge software development for innovative solutions",
+        "subtitle": "Experience the transformative power of our cutting-edge software development services, as we bring your innovative ideas to life with custom solutions tailored to your specific business needs."
+    }
+}

@@ -7,6 +7,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { ServicesComponent } from './services/services.component';
 import { FeaturesComponent } from './features/features.component';
 import { TeamComponent } from './team/team.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 const moduleComponents = [
     HeaderComponent,
@@ -20,7 +21,8 @@ const moduleComponents = [
 
 @NgModule({
     imports: [
-        CommonModule
+        CommonModule,
+        TranslateModule
     ],
     declarations: moduleComponents,
     exports: moduleComponents,
