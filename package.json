@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "ng deploy --cname=akonengenharia.com"
+    "deploy": "ng deploy --cname=southware.dev"
   },
   "private": true,
   "dependencies": {
