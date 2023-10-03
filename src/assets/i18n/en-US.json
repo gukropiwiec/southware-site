@@ -12,5 +12,25 @@
     },
     "services": {
         "title": "Our Services"
+    },
+    "features": {
+        "features": "Features",
+        "benefits": "Benefits",
+        "first-text-features": "Custom Web Solutions",
+        "second-text-features": "Professional Project Portfolio",
+        "third-text-features": "Innovative Digital Showcase",
+        "fourth-text-features": "Responsive and Professional Team",
+        "fifth-text-features": "Reliable Ongoing Support",
+        "first-text-benefits": "Enhanced Online Presence",
+        "second-text-benefits": "Increased Brand Awareness",
+        "third-text-benefits": "Competitive Advantage",
+        "fourth-text-benefits": "Improved User Experience",
+        "fifth-text-benefits": "Sustainable Business Growth"
+    },
+    "team": {
+        "title": "Our Team",
+        "subtitle": "Meet the Southware team: A Collective of Visionaries and Innovators",
+        "office": "Founder & CEO",
+        "description": "With years of experience in the tech industry, the leadership and vision have propelled Southware to new heights. He is passionate about technology and believes in using it to make a difference in people’s lives."
     }
 }
