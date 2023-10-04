@@ -1,3 +1,12 @@
 button {
     font-size: 14px;
 }
+
+.btn-blue {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+}
+
+.btn-blue:hover {
+    background-color: var(--color-blue-dark);
+}
