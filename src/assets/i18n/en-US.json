@@ -14,23 +14,23 @@
         "title": "Our Services"
     },
     "features": {
-        "features": "Features",
         "benefits": "Benefits",
-        "first-text-features": "Custom Web Solutions",
-        "second-text-features": "Professional Project Portfolio",
-        "third-text-features": "Innovative Digital Showcase",
-        "fourth-text-features": "Responsive and Professional Team",
-        "fifth-text-features": "Reliable Ongoing Support",
-        "first-text-benefits": "Enhanced Online Presence",
-        "second-text-benefits": "Increased Brand Awareness",
-        "third-text-benefits": "Competitive Advantage",
-        "fourth-text-benefits": "Improved User Experience",
-        "fifth-text-benefits": "Sustainable Business Growth"
+        "firstTextFeatures": "Custom Web Solutions",
+        "secondTextFeatures": "Professional Project Portfolio",
+        "thirdTextFeatures": "Innovative Digital Showcase",
+        "fourthTextFeatures": "Responsive and Professional Team",
+        "fifthTextFeatures": "Reliable Ongoing Support",
+        "firstTextBenefits": "Enhanced Online Presence",
+        "secondTextBenefits": "Increased Brand Awareness",
+        "thirdTextBenefits": "Competitive Advantage",
+        "fourthTextBenefits": "Improved User Experience",
+        "fifthTextBenefits": "Sustainable Business Growth"
     },
     "team": {
         "title": "Our Team",
         "subtitle": "Meet the Southware team: A Collective of Visionaries and Innovators",
         "office": "Founder & CEO",
-        "description": "With years of experience in the tech industry, the leadership and vision have propelled Southware to new heights. He is passionate about technology and believes in using it to make a difference in people’s lives."
+        "description": "With years of experience in the tech industry, the leadership and vision have propelled Southware to new heights. He is passionate about technology and believes in using it to make a difference in people’s lives.",
+        "andreDescription": "A developer passionate about creating innovative solutions. With experience in HTML, CSS, JavaScript, Python, Database, PHP, RPA's among others and always looking for stimulating challenges to apply his knowledge."
     }
 }
