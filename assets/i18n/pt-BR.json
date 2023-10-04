@@ -14,23 +14,24 @@
         "title": "Nossos Serviços"
     },
     "features": {
-        "features": "Características",
         "benefits": "Benefícios",
-        "first-text-features": "Soluções Web Personalizadas",
-        "second-text-features": "Projeto de Portfólio Profissional",
-        "third-text-features": "Vitrine Digital Inovadora",
-        "fourth-text-features": "Time Profissional e Responsável",
-        "fifth-text-features": "Suporte Contínuo Confiável",
-        "first-text-benefits": "Presença On-line Aprimorada",
-        "second-text-benefits": "Maior Conhecimento da Marca",
-        "third-text-benefits": "Vantagem Competitiva",
-        "fourth-text-benefits": "Experiência do Usuário Aprimorada",
-        "fifth-text-benefits": "Crescimento Sustentável dos Negócios"
+        "firstTextFeatures": "Soluções Web Personalizadas",
+        "secondTextFeatures": "Projeto de Portfólio Profissional",
+        "thirdTextFeatures": "Vitrine Digital Inovadora",
+        "fourthTextFeatures": "Time Profissional e Responsável",
+        "fifthTextFeatures": "Suporte Contínuo Confiável",
+        "firstTextBenefits": "Presença On-line Aprimorada",
+        "secondTextBenefits": "Maior Conhecimento da Marca",
+        "thirdTextBenefits": "Vantagem Competitiva",
+        "fourthTextBenefits": "Experiência do Usuário Aprimorada",
+        "fifthTextBenefits": "Crescimento Sustentável dos Negócios"
     },
     "team": {
         "title": "Nosso Time",
         "subtitle": "Conheça a equipe Southware: Um Coletivo de Visionários e Inovadores",
         "office": "Fundador & CEO",
-        "description": "Com anos de experiência na indústria de tecnologia, a liderança e a visão impulsionaram a Southware a novos patamares. Ele é apaixonado por tecnologia e acredita em usá-la para fazer a diferença na vida das pessoas."
+        "description": "Com anos de experiência na indústria de tecnologia, a liderança e a visão impulsionaram a Southware a novos patamares. Ele é apaixonado por tecnologia e acredita em usá-la para fazer a diferença na vida das pessoas.",
+        "andreDescription": "Um desenvolvedor apaixonado por criar soluções inovadoras. Com experiência em HTML, CSS, JavaScript, Python, Banco de Dados, PHP, RPA's entre outras e está sempre em busca de desafios estimulantes para aplicar seus conhecimentos.",
+        "gustavoDescription": "Um desenvolvedor web full-stack, com mais de 4 anos de experiência em desenvolvimento. Atuou no desenvolvimento do e-commerce de uma grande floricultura que contém milhares de visitar diárias, além do desenvolvimento de aplicativos utilizando Ionic"
     }
 }
