@@ -8,6 +8,7 @@ import { ServicesComponent } from './services/services.component';
 import { FeaturesComponent } from './features/features.component';
 import { TeamComponent } from './team/team.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { ContactComponent } from './contact/contact.component';
 
 const moduleComponents = [
     HeaderComponent,
@@ -16,7 +17,8 @@ const moduleComponents = [
     ClientsComponent,
     ServicesComponent,
     FeaturesComponent,
-    TeamComponent
+    TeamComponent,
+    ContactComponent
 ];
 
 @NgModule({
