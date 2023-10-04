@@ -15,6 +15,7 @@
 
 :root {
     --color-blue: #2270E2;
+    --color-blue-dark: #1b4f9c;
     --color-secondary: #FFFFFF;
     --color-primary: #212121;
     --color-bg-dark-alpha: #9f9f9ff6;
@@ -40,11 +41,6 @@ html body {
 .section-padding {
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
-
-.btn-blue {
-    background-color: var(--color-blue);
-    color: #FFFFFF;
 }
 
 .section-title {
